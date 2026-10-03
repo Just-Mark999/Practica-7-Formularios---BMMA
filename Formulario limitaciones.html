@@ -1,23 +1,22 @@
-<!DOCTYPE html>
-<html>
+<!-- Marco Andres Bonilla Murillo 5J -->
+<!DOCTYPE html> <!-- Etiqueta que define el documento como html -->
+<html> <!-- Raiz que contiene toda la informacion dle documento -->
+<!-- Seccion de configuracion no visible -->
 <head>
-<meta charset="UTF 8">
-<title> Formulario en HTML Practica 7 (Formularios con limitaciones) </title>
+<meta charset="UTF 8"> <!-- Etiqueta que permite utilizar caracteres especiales -->
+<title> Formulario en HTML Practica 7 (Formularios con limitaciones) </title> <!-- Titulo que aparece en la barra del navegador -->
 </head>
-
+<!-- Seccion que contiene la informacion visible en la apgina web -->
 <body>
-<h2> Formulario con limitaciones </h2>
-<form action="" method="post">
+<h2> Formulario con limitaciones </h2> <!-- Titulo de nivel 2 -->
+<!-- Seccion que contiene un formulario -->
+<form action="" method="post"> <!-- Raiz que guarda y envia la informacion guardada en los campos del formulario -->
 Ingresa tu nombre:
-<!-- Desahbilitacion de campo -->
-<input type="text" name="nombre" disabled><br>
-<!-- Limitacion de caracteres -->
+<input type="text" name="nombre" disabled><br> <!-- Input que crea un campo del tipo texto para guardar el nombre del usuario pero deshabilita la capacidad de escribir en el -->
 Contraseña:
-<input type="password" name="pass" maxlength="5"><br>
-<!-- Solo lectura -->
+<input type="password" name="pass" maxlength="5"><br> <!-- Input que crea un campo del tipo contraseña (password) para revisar la contraseña del usuario pero con un maximo de 5 caracteres para escribir -->
 Comentarios:
-<textarea name="comentarios" readonly>
-
+<textarea name="comentarios" readonly> <!-- Input que crea un campo del tipo text area pero solo habilitado para leerse con un mensaje predeterminado -->
 Este es mi comentario y no se puede borrar
 </textarea><br>
 </form>
