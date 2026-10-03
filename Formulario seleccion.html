@@ -12,11 +12,12 @@
 <!-- Seccion que almacena un formulario -->
 <form action="" method="post"> <!-- Raiz encargada de almacenar la informacion enviada por el formulario, permanece inactiva -->
 Ingresa tu nombre:
-<input type="text" name="nombre"> <!--
-
+<input type="text" name="nombre"> <!-- Input que abre un campo del tipo texto para guardadr el nombre del usuario -->
 <br>
+<!-- Seccion que agrupa varias opciones a elegir por el usuario mediante el input select-->
 Selecciona tu pais:
-<select name="pais">
+<select name="pais"> <!-- Input que crea un campo que despliega opciones a elegir por el usuario -->
+<!-- Opciones elejibles por el usuario con su respectivo valor al ser seleccionadas -->
 <option value="1">Argentina</option>
 <option value="2">España</option>
 <option value="3">Mexico</option>
@@ -27,9 +28,8 @@ Selecciona tu pais:
 <option value="8">Colombia</option>
 </select>
 <br>
-<input type="submit" value="enviar">
-<input type="reset" value="borrar">
+<input type="submit" value="enviar"> <!-- Input del tipo registrar (submit) encargado de enviar la informacion guardada en los campos -->
+<input type="reset" value="borrar"> <!-- Input del tipo reset encargado de borrar los datos de los campos y dejarlos en blanco -->
 </form>
-
 </body>
 </html>
