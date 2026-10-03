@@ -1,26 +1,27 @@
-<!DOCTYPE html>
-<html>
+<!-- Marco Andres Bonilla Murillo 5j -->
+<!DOCTYPE html> <!-- Etiqueta que define el documento como html -->
+<html> <!-- Raiz que envuelve todo el contenido del documento -->
+<!-- Seccion que contiene informacion no visible -->
 <head>
-  <meta charset="UTF-8">
-  <title> Formularios en HTML Practica 7 (Formulario con text area) </title>
+  <meta charset="UTF-8"> <!-- Etiqueta que permite utilizar caracteres especiales -->
+  <title> Formularios en HTML Practica 7 (Formulario con text area) </title> <!-- Etiqueta con el titulo que aparecera en la barra del navegador -->
 </head>
-
+<!-- Seccion que contiene el cuerpo visible de la pagina -->
 <body>
-<h2> Formulario con text area </h2>
-
-<form action="" method="post">
+<h2> Formulario con text area </h2> <!-- Titulo de nivel 2 -->
+<!-- Seccion que contiene un formulario -->
+<form action="" method="post"> <!-- Raiz encargada de guardar toda la informacion de los campos del formulario, permanece vacia -->
 Ingresa tu nombre: <br>
-<input type="text" name="nombre">
+<input type="text" name="nombre"> <!-- Input que crea un campo del tipo texto para guardar el nombre del usuario -->
 <br>
 Ingresa tu correo: <br>
-<input type="email" name="correo">
+<input type="email" name="correo"> <!-- Input que crea un campo del tipo email encargado de guardar el correo electronico del usuario -->
 <br>
 Ingresa tus comentarios: <br>
-<textarea name="comentarios" rows="1" cols="10"></textarea>
+<textarea name="comentarios" rows="1" cols="10"></textarea> <!-- Input del tipo textarea con un tamaño predefinido pero ajustable, permite guardar mayor cantidad de texto. Guarda los comentarios del usuario -->
 <br>
-<input type="submit" value="enviar">
-<input type="reset" value="borrar">
+<input type="submit" value="enviar"> <!-- Input del tipo registrar (submit) encargado de enviar todos los datos en los campos del formulario -->
+<input type="reset" value="borrar"> <!-- Input del tipo reset encargado de borrar y dejar en blanco los campos en el formualrio -->
 </form>
-
 </body>
 </html>
